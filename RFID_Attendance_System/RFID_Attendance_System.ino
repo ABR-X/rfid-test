@@ -69,7 +69,7 @@ void setup() {
   
   // Initialize NTP client
   timeClient.begin();
-  timeClient.setTimeOffset(0); // Set your timezone offset in seconds
+  timeClient.setTimeOffset(3600); // Set your timezone offset in seconds
   
   // Initialize status LEDs (optional)
   // pinMode(LED_GREEN, OUTPUT);

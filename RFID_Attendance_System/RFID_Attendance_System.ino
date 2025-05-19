@@ -16,11 +16,11 @@
 #include <time.h>
 
 // WiFi credentials
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "AdminNet";
+const char* password = "@ENSAM2010.";
 
 // Google Script ID
-const char* scriptUrl = "https://script.google.com/macros/s/AKfycbzl3OCqMyP4fMvXzp0sTBdgGyfgzVpnUyD254RZ6DTP-GWAP3VyNAcxAhfQg5oXMMuZcA/exec";
+const char* scriptUrl = "https://script.google.com/macros/s/AKfycbzQ92zb-Sgul1QEuNtGLhRwIBFK_l9oY2yg0w-7Kf9b2YWmHk7tpy0iG5mBxOMCCZbJ/exec";
 
 // RFID Reader pins (as per the image)
 #define RST_PIN D1  // GPIO5
